@@ -1,0 +1,145 @@
+section {
+    background-color:black;
+    background-size: cover; 
+    h4 {
+        font-family: 'Anton', sans-serif;
+        font-weight: 400; 
+        text-align: center; 
+        margin: 0;
+        letter-spacing: 2px;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        color: white; 
+        text-shadow: 3px 3px rgb(165, 1, 1);
+        padding-bottom: 20px;
+    }
+    .padding {
+        padding: 50px 20px; 
+        form {
+            background-color: rgb(255, 157, 38);
+            border-radius: 5px;
+            box-shadow: 5px 5px rgb(165, 1, 1);
+            padding: 50px;
+            h3 {
+                font-family: 'Anton', sans-serif;
+                font-weight: 400; 
+                text-align: center; 
+                margin-top: 0;
+                letter-spacing: 2px;
+                font-size: 2.5rem;
+                text-transform: uppercase;
+                color: white; 
+                text-shadow: 3px 3px rgb(165, 1, 1);
+            }
+            .flexContainer {
+                display: flex; 
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                p {
+                    font-family: 'Anton', sans-serif;
+                    font-weight: 400;
+                    font-size: 2.5rem;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    color: white; 
+                    text-shadow: 3px 3px rgb(165, 1, 1);
+                    margin: 0;
+                }
+                .questionOneWrong,
+                .questionTwoWrong,
+                .questionThreeWrong,
+                .questionFourWrong,
+                .questionFiveWrong {
+                    display: none; 
+                    margin-top: 20px;
+                }
+
+                .questionOneRight,
+                .questionTwoRight,
+                .questionThreeRight,
+                .questionFourRight,
+                .questionFiveRight {
+                    display: none; 
+                    margin-top: 20px;
+                }
+
+                .answerContainer {
+                    display: flex; 
+                    justify-content: center;
+                    align-items: center; 
+                    flex-wrap: wrap;
+                    gap: 20px 20px;
+                    span {
+                        width: 45%; 
+                    }
+                    .answer {
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: 700;
+                        font-size: 20px;
+                        padding: 10px 40px;
+                        background-color: black;
+                        color: white; 
+                        border-radius: 20px;
+                        text-align: center;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        transition-duration: 0.4s;
+                        label {
+                            cursor: pointer; 
+                            padding: 20px;
+                        }
+                    }
+                    .answer:hover {
+                        background-color: rgb(165, 1, 1); 
+                        cursor: pointer;
+                    }
+                }
+
+                .endQuiz {
+                    background-color: rgb(165, 1, 1); 
+                    border: none; 
+                    padding: 10px 30px;
+                    font-family: 'Roboto', sans-serif;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    color: white; 
+                    border-radius: 20px;
+                    font-size: 20px;
+                    transition-duration: 0.4s;
+                }
+                .endQuiz:hover {
+                    background-color: white;
+                    color: rgb(165, 1, 1);
+                    cursor: pointer;
+                }
+            }
+            button {
+                background-color: rgb(165, 1, 1); 
+                border: none; 
+                padding: 10px 40px;
+                font-family: 'Roboto', sans-serif;
+                text-transform: uppercase;
+                font-weight: 700;
+                color: white; 
+                border-radius: 20px;
+                font-size: 20px;
+                transition-duration: 0.4s;
+                margin: 20px;
+            }
+
+            button:hover {
+                background-color: white;
+                color: rgb(165, 1, 1);
+                cursor: pointer;
+            }
+        }
+    }        
+}   
+
+
+
+
+
+
+
